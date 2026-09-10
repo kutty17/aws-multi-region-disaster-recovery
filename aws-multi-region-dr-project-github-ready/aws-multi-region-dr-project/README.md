@@ -4,12 +4,12 @@
 
 This project demonstrates the design and implementation of a **highly available, scalable, secure, and disaster-resilient web application architecture on AWS**.
 
-The architecture uses **two AWS regions**:
+The architecture uses two AWS regions:
 
 - **Primary Region:** `us-east-1`
 - **Secondary / DR Region:** `us-west-2`
 
-The primary region handles production traffic, while the secondary region is maintained as a **warm standby environment** for disaster recovery.
+The primary region handles normal production traffic, while the secondary region provides a disaster recovery environment.
 
 The architecture is designed to provide:
 
@@ -32,7 +32,7 @@ The architecture is designed to provide:
 
 ## 🔄 High-Level Traffic Flow
 
-The application request follows this flow:
+The application request follows this architecture:
 
 ```text
 User
