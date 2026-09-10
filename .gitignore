@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Terraform state (if Terraform is added later)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Secrets
+.env
+*.pem
+*.key
+secrets/
