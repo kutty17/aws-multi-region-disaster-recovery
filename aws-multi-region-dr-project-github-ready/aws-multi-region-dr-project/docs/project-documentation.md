@@ -38,15 +38,6 @@ The application follows a layered architecture.
 User
   |
   v
-Route 53
-  |
-  v
-AWS WAF
-  |
-  v
-CloudFront
-  |
-  v
 Application Load Balancer
   |
   v
