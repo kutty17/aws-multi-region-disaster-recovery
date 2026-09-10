@@ -19,7 +19,7 @@ The architecture is designed to provide:
 
 ## Architecture
 
-![AWS Architecture](./images/aws-architecture.png)
+![AWS Architecture](../images/aws-architecture.png)
 
 ### Traffic Flow
 
